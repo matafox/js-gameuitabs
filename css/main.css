@@ -1,0 +1,105 @@
+* {
+    color: #fff;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.wrap {
+    background: url(../img/bg.png) no-repeat center center;
+    background-size: cover;
+    padding: 150px 0;
+
+}
+
+.container-tabs {
+    max-width: 650px;
+    margin: 0 auto;
+    background: #212534;
+    padding-bottom: 30px;
+}
+
+.tab-link {
+    position: relative;
+    line-height: 2.5;
+}
+
+.tab-link img {
+    position: absolute;
+    left: 45%;
+    top: 5%;
+}
+
+ul.tabs{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul.tabs li{
+    background: none;
+    display: inline-block;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+
+ul.tabs li.active{
+    background: #464c5f;
+    border-bottom: 2px solid #fff;
+}
+ 
+.tab-content{
+    position: relative;
+    display: none;
+    background: #212534;
+    padding: 30px;
+}
+
+ 
+.tab-content.active{
+    display: block;
+}
+
+.game-info {
+    float: right;
+    width: 400px;
+}
+
+.stars {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+
+button {
+    width: 165px;
+    height: 55px;
+    outline: none;
+    border: none;
+    background: #13e28d;
+    text-transform: uppercase;
+    margin: 0 50px;
+}
+
+button:active {
+    background: #4d5262;
+}
+
+.price {
+    display: inline-block;
+    font-size: 32px;
+    margin: 0;
+}
+
+.discount {
+    color: #fedc3f;
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+.rait {
+    float: right;
+}
